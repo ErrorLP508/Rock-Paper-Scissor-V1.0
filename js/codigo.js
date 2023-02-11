@@ -24,7 +24,7 @@ let draw = 0
 while (trumps < 3 && losses < 3) {
     //PLAYERS
     pc = random(1,3)
-    player = prompt("Choose: 1 for ROCK 🪨, 2 for PAPER 🧻 and 3 for SCISSORS ✂️")
+    player = prompt("Choose: 1 for ROCK 🪨, 2 for PAPER 🧻 and 3 for SCISSORS ✂️. If you enter a character other than 1, 2 or 3, you automatically LOSE 🥲")
     
     //ELECCION
     alert("The PLAYER Chose " + choice(player))
